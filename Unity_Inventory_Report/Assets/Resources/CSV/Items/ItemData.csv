@@ -1,0 +1,5 @@
+ItemID,ItemName,ItemType,ItemRarity,ItemCode,RequiredLevel,Description,ItemIcon
+weapon_001,TestWeapon1,Equipment,UnCommon,Weapon,10,Description_1,
+weapon_002,TestWeapon2,Equipment,Unique,Weapon,20,Description_2,
+chest_001,TestChest1,Equipment,Legendary,Chest,10,Description_3,
+potion_001,TestPotion1,Consumable,,,,Description_4,
