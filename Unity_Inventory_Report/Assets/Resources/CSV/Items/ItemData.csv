@@ -1,5 +1,10 @@
-ItemID,ItemName,ItemType,ItemRarity,ItemCode,RequiredLevel,Description,ItemIcon
-weapon_001,TestWeapon1,Equipment,UnCommon,Weapon,10,Description_1,
-weapon_002,TestWeapon2,Equipment,Unique,Weapon,20,Description_2,
-chest_001,TestChest1,Equipment,Legendary,Chest,10,Description_3,
-potion_001,TestPotion1,Consumable,,,,Description_4,
+﻿ItemID,ItemName,ItemType,ItemRarity,ItemCode,RequiredLevel,MaxCount,Description,ItemIcon
+weapon_001,나무 검,Equipment,UnCommon,Weapon,10,1,나무 검 설명,
+weapon_002,황금 검,Equipment,Unique,Weapon,20,1,황금 검 설명,
+chest_001,강철 갑옷,Equipment,Legendary,Chest,10,1,강철 갑옷 설명,
+potion_001,빨간 포션(소),Consumable,,,,50,빨간 포션(소) 설명,
+potion_002,빨간 포션(중),Consumable,,,,50,빨간 포션(중) 설명,
+potion_003,빨간 포션(대),Consumable,,,,50,빨간 포션(대) 설명,
+potion_004,파란 포션(소),Consumable,,,,50,파란 포션(소) 설명,
+potion_005,파란 포션(중),Consumable,,,,50,파란 포션(중) 설명,
+potion_006,파란 포션(대),Consumable,,,,50,파란 포션(대) 설명,

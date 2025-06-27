@@ -3,7 +3,9 @@ using UnityEngine;
 public enum EItemType
 {
     Equipment,
-    Consumable
+    Consumable,
+
+    None
 }
 
 public enum EItemRarity
@@ -41,7 +43,10 @@ public class ItemData : ScriptableObject
     public EItemRarity ItemRarity;
     public EItemCode ItemCode;
     public int RequiredLevel;
+    public int MaxCount;
     public Sprite ItemIcon;
+
+    [TextArea(5, 10)]
     public string Description;
 
     public string Print()

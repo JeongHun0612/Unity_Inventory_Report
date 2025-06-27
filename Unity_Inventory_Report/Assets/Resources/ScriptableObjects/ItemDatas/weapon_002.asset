@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: weapon_002
   m_EditorClassIdentifier: 
   ItemID: weapon_002
-  ItemName: TestWeapon2
+  ItemName: "\uD669\uAE08 \uAC80"
   ItemType: 0
   ItemRarity: 3
   ItemCode: 0
   RequiredLevel: 20
-  ItemIcon: {fileID: 0}
-  Description: Description_2
+  MaxCount: 1
+  ItemIcon: {fileID: 21300000, guid: 90e99a7fde056a4418b9fe16084adb5c, type: 3}
+  Description: "\uD669\uAE08 \uAC80 \uC124\uBA85"

@@ -45,6 +45,7 @@ public class ItemDataGenerator : EditorWindow
             EItemRarity rarity = !string.IsNullOrEmpty(entry["ItemRarity"].ToString()) ? (EItemRarity)Enum.Parse(typeof(EItemRarity), entry["ItemRarity"].ToString()) : EItemRarity.None;
             EItemCode code = !string.IsNullOrEmpty(entry["ItemCode"].ToString()) ? (EItemCode)Enum.Parse(typeof(EItemCode), entry["ItemCode"].ToString()) : EItemCode.None;
             int requiredLevel = !string.IsNullOrEmpty(entry["RequiredLevel"].ToString()) ? int.Parse(entry["RequiredLevel"].ToString()) : 0;
+            int maxCount = !string.IsNullOrEmpty(entry["MaxCount"].ToString()) ? int.Parse(entry["MaxCount"].ToString()) : 0;
             string description = entry["Description"].ToString();
             string iconName = entry["ItemIcon"].ToString();
 
@@ -55,6 +56,7 @@ public class ItemDataGenerator : EditorWindow
             item.ItemRarity = rarity;
             item.ItemCode = code;
             item.RequiredLevel = requiredLevel;
+            item.MaxCount = maxCount;
             item.Description = description;
 
             Sprite icon = Resources.Load<Sprite>($"Sprites/ItemIcon/{iconName}");

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: chest_001
   m_EditorClassIdentifier: 
   ItemID: chest_001
-  ItemName: TestChest1
+  ItemName: "\uAC15\uCCA0 \uAC11\uC637"
   ItemType: 0
   ItemRarity: 4
   ItemCode: 2
   RequiredLevel: 10
-  ItemIcon: {fileID: 0}
-  Description: Description_3
+  ItemIcon: {fileID: 21300000, guid: 567fdd2e557fefc478f8aaa7ae56fb11, type: 3}
+  Description: "\uAC15\uCCA0 \uAC11\uC637 \uC124\uBA85"
